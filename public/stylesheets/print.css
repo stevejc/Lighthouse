@@ -1,0 +1,29 @@
+html, body {
+	background: none;
+}
+
+#nav, #sidebar, #header h2 {
+	display: none;
+}
+
+#header {
+	float: none;
+}
+
+#header h1 {
+	font-size: 2m;
+	text-align: center;
+}
+
+#content {
+	width: 92%;
+}
+
+#content .post {
+	padding: 30px;
+	font-size: 12pt;
+}
+
+#content .post a:after {
+	content: " (" attr(href) ")";
+}

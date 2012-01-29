@@ -1,0 +1,77 @@
+
+#secleft {
+	width: 430px;
+	height: 400px;
+	border-right: dotted #ddd;
+	float: left;
+}
+
+#secright {
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+
+#secright h2 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#secright h4 {
+	line-height: 1.5px;
+}
+
+#sidebar {
+	width: 300px;
+	height: 725px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 35px 20px;
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	float: right;
+	background: #eceff0;
+}
+
+#sidebar span {
+	color: green;
+	font-weight: bold;
+}
+
+#about {
+	height: 475px;
+	margin: -30px auto 10px auto;	
+}
+
+#solutions {
+	height: 790px;
+	margin: -30px auto 10px auto;	
+}
+
+#contact {
+	height: 475px;
+	margin: -30px auto 10px auto;	
+}
+
+#partners {
+	width: 300px;
+	height: 400px;
+	margin-left: 20px;
+	padding: 35px 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	float: right;
+	background: #eceff0;
+}
+.one {
+	font-weight: bold;
+	color: #ff9604;
+}
+
+.plan {
+	font-weight: bold;
+}
+
+
