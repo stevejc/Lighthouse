@@ -29,7 +29,6 @@ p {
 
 #logo {
 	float: left;
-	border: dashed pink;
 }
 
 #header h1 {
@@ -50,7 +49,6 @@ p {
 	padding: 10px 0;
 	float: right;
 	margin: 10px 0;
-	border: dashed pink;
 }
 
 #headnav ul {
@@ -200,6 +198,7 @@ p {
 	margin-left: 80px;
 	line-height: 16px;
 	font-size: 16px;
+	border-bottom: 1px solid #ddd;
 }
 
 .bullet {
