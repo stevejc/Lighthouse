@@ -20,15 +20,18 @@ p {
 	height: 100px;
 	margin: auto;
 	background: #284044;
+	border: dashed pink;
 }
 #headerwrapper {
 	width: 960px;
 	padding: 10px;
 	margin: auto;
+	border: dashed orange;
 }
 
 #logo {
 	float: left;
+	border: dotted red;
 }
 
 #header h1 {
@@ -49,6 +52,7 @@ p {
 	padding: 10px 0;
 	float: right;
 	margin: 10px 0;
+	border: dotted red;
 }
 
 #headnav ul {
