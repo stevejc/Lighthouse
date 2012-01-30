@@ -314,7 +314,133 @@ p {
 	margin: 5px auto;
 }
 
+/* Media Queries
+------------------------------------------------------------------------------*/
 
+@media handheld and (max-width:480px),
+       screen and (max-device-width: 480px),
+       screen and (mx-width: 600px) {
+	
+	#headerwrapper, #primarycontent, .secondarycontent, #footer {
+		width: inherit;
+	}
+	
+	#primary {
+		height: 450px;
+	}
+	
+	#sidebar, .contactus {
+		display: none;
+	}
+	
+	#logo {
+		float: none;
+		margin: 0px;
+	}
+	
+	#logo h1 {
+		text-align: center;
+		font-size: 2em;
+		margin: 5px;
+	}
+	
+	#logo h3 {
+		display: none;
+	}
+	
+	#headnav {
+		font-size: 0.7em;
+		margin: 5px 15px;
+		float: none;
+		text-align: center;
+	}
+	
+	#headnav li {
+		float: none;
+		display: inline;
+	}
+	
+	#mainleft, #mainright {
+		width: inherit;
+		float: none;
+		margin: 0px;
+	}
+		
+	#mainleft h2 {
+		text-align: center;
+		font-size: 1.4em;
+		margin: 5px;
+	}
+	
+	#mainleft p {
+		font-size: 1.1em;
+		margin: 5px;
+	}
+	
+	#mainright li {
+		font-size: 1em;
+	}
+	
+	.secondarycontent {
+		padding: 5px;
+		margin-top: 35px;
+	}
+	
+	#secheader h2 {
+		text-align: center;
+		font-size: 1.4em;
+		margin: 5px;
+	}
+	
+	#secheader h3 {
+		text-align: center;
+		font-size: 1.4em;
+		margin: 5px;		
+	}
+	
+	.bullet {
+		height: auto;
+	}
+
+	.bullet h3 {
+		padding: 5px;
+		color: black;
+		font-size: 1.2em;
+	}
+
+	.circle {
+		width: 20px;
+		height: 20px;
+		margin-top: 5px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		background: black;
+	}
+
+	.circle p {
+		color: white;
+		text-align: center;
+		font-size: 1.0em;
+		padding: 0px;
+	}
+	
+	.bensummary {
+		margin: 0px;
+	}
+	
+	.bensummary p {
+		font-size: 0.9em;
+		padding: 2px;
+	}
+	
+	#footer {
+		font-size: 0.8em;
+		margin: 0px;
+	}
+}
 
 
 
