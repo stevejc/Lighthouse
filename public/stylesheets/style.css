@@ -202,6 +202,10 @@ p {
 	border-bottom: 1px solid #ddd;
 }
 
+.bensummary:last-child {
+	border-bottom: none;
+}
+
 .bullet {
 	height: auto;
 }
@@ -232,14 +236,14 @@ p {
 
 #secleft {
 	width: 430px;
-	height: 400px;
+	height: auto;
 	border-right: dotted #ddd;
 	float: left;
 }
 
 #secright {
 	width: 400px;
-	height: 400px;
+	height: auto;
 	float: right;
 }
 
@@ -254,7 +258,7 @@ p {
 
 #sidebar {
 	width: 300px;
-	height: 725px;
+	height: auto;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	padding: 35px 20px;
@@ -275,13 +279,26 @@ p {
 	margin: -30px auto 10px auto;	
 }
 
+#pushup {
+	height: auto;
+	margin-top: -30px;
+}
+
+
+
+#aboutcontent {
+	width: 500px;
+	float: left;
+}
+
 #solutions {
-	height: 790px;
+	height: auto;
+	padding: 10px;
 	margin: -30px auto 10px auto;	
 }
 
 #contact {
-	height: 475px;
+	height: auto;
 	margin: -30px auto 10px auto;	
 }
 
@@ -296,6 +313,14 @@ p {
 	float: right;
 	background: #eceff0;
 }
+
+#one {
+	float: left;
+	width: 500px;
+	margin: 10px;
+	height: auto;
+}
+
 .one {
 	font-weight: bold;
 	color: #ff9604;
@@ -321,7 +346,7 @@ p {
        screen and (max-device-width: 480px),
        screen and (mx-width: 600px) {
 	
-	#headerwrapper, #primarycontent, .secondarycontent, #footer {
+	#headerwrapper, #primarycontent, .secondarycontent, #footer, #about, #aboutcontent, #one, #secleft, #secright  {
 		width: inherit;
 	}
 	
@@ -436,6 +461,32 @@ p {
 		padding: 2px;
 	}
 	
+	#about {
+		height: auto;
+		padding: 5px;
+	}
+	
+	#aboutcontent {
+		margin: 5px;
+	}
+	
+	#partners {
+		margin: 5px;
+		padding: 0px;
+		width: inherit;
+		background: none;
+	    float: left;
+	}
+	
+	#solutions {
+		height: auto;
+	    border: dashed: red;
+	}
+	
+	#secleft {
+		border-right: none;
+	}
+		
 	#footer {
 		font-size: 0.8em;
 		margin: 0px;
